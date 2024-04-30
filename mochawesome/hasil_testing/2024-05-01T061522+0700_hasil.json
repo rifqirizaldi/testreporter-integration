@@ -1,0 +1,146 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-04-30T23:15:22.705Z",
+    "end": "2024-04-30T23:15:22.788Z",
+    "duration": 83,
+    "testsRegistered": 3,
+    "passPercent": 66.66666666666666,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c718635d-1137-4704-ae62-e45feba63cd3",
+      "title": "",
+      "fullFile": "C:\\Users\\LENOVO\\Desktop\\code\\task-testreporting\\mochawesome\\specs\\testing.spec.js",
+      "file": "\\specs\\testing.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e3980bb2-82c9-4e1f-9d0e-499676a70b4d",
+          "title": "C001 - Coba test reporter",
+          "fullFile": "C:\\Users\\LENOVO\\Desktop\\code\\task-testreporting\\mochawesome\\specs\\testing.spec.js",
+          "file": "\\specs\\testing.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "F001 - Test sum",
+              "fullTitle": "C001 - Coba test reporter F001 - Test sum",
+              "timedOut": false,
+              "duration": 2,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let sum = 1+1\nexpect(sum).to.equal(2)",
+              "err": {},
+              "uuid": "cf00fcb1-47d1-4d9e-920b-d4b324c209c8",
+              "parentUUID": "e3980bb2-82c9-4e1f-9d0e-499676a70b4d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "F002 - Test type data",
+              "fullTitle": "C001 - Coba test reporter F002 - Test type data",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let word = \"ARIS\"\nexpect(word).to.be.a('string')",
+              "err": {},
+              "uuid": "0808366b-2003-4b9a-bd8f-487a5959126c",
+              "parentUUID": "e3980bb2-82c9-4e1f-9d0e-499676a70b4d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "F003 - Test type data",
+              "fullTitle": "C001 - Coba test reporter F003 - Test type data",
+              "timedOut": false,
+              "duration": 3,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "let word = 123\nexpect(word).to.be.a('boolean')",
+              "err": {
+                "message": "AssertionError: expected 123 to be a boolean",
+                "estack": "AssertionError: expected 123 to be a boolean\n    at Context.<anonymous> (file:///C:/Users/LENOVO/Desktop/code/task-testreporting/mochawesome/specs/testing.spec.js:17:28)\n    at process.processImmediate (node:internal/timers:478:21)",
+                "diff": null
+              },
+              "uuid": "650b49e4-a020-4e3d-98f2-20e69a9177b3",
+              "parentUUID": "e3980bb2-82c9-4e1f-9d0e-499676a70b4d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cf00fcb1-47d1-4d9e-920b-d4b324c209c8",
+            "0808366b-2003-4b9a-bd8f-487a5959126c"
+          ],
+          "failures": [
+            "650b49e4-a020-4e3d-98f2-20e69a9177b3"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 6,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.4.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[datetime]_hasil",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "hasil_testing",
+        "reportFilename": "[datetime]_hasil"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
