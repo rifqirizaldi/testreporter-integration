@@ -1,0 +1,18 @@
+{
+  "name": "report-portal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha specs/**/*.spec.js --config=mocharc.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reportportal/agent-js-mocha": "^5.0.4",
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
+}
