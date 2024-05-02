@@ -12,7 +12,10 @@
   "license": "ISC",
   "dependencies": {
     "@reportportal/agent-js-mocha": "^5.0.4",
+    "ajv": "^8.13.0",
     "chai": "^5.1.0",
-    "mocha": "^10.4.0"
+    "chai-json-schema-ajv": "^5.2.4",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
   }
 }
